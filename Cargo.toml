@@ -16,6 +16,15 @@ edition = "2021"
 nu-ansi-term = "0.50"
 strsim = "0.11.1"
 thiserror = "2.0.12"
+clap = { version = "4.5", features = ["derive"] }
 
 [dev-dependencies]
 insta = { version = "1.43.1", features = ["glob"] }
+
+[[bin]]
+name = "diffy-diff"
+path = "src/bin/diff.rs"
+
+[[bin]]
+name = "diffy-patch"
+path = "src/bin/patch.rs"
