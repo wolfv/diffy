@@ -1,0 +1,2 @@
+createSrcSidebar('[["diffy",["",[["diff",[],["cleanup.rs","mod.rs","myers.rs"]],["merge",[],["mod.rs"]],["patch",[],["format.rs","mod.rs","parse.rs"]]],["apply.rs","lib.rs","line_end.rs","range.rs","utils.rs"]]]]');
+//{"start":19,"fragment_lengths":[192]}
